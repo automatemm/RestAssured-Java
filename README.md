@@ -1,7 +1,11 @@
 # Hsbc Technical Test for API Automation
 
 # All test scenarios developed by following documentation in the Given URL
+https://reqres.in/
 https://ratesapi.io/documentation/
+
+# to generate schema
+https://jsonschema.net/home
 
 ## Notes about the Test Framework
 
@@ -15,10 +19,10 @@ This Test Automation Framework is built with Following tech stack:
 
 ### How to run the tests
 
-* Clone the repository locally (git clone https://github.com/Boshinya/hsbc-technical-test.git)
+* Clone the repository locally (git clone https://github.com/automatemm/RestAssured-Java.git)
 * Create a Junit Runner with following VM options
 * Runner Class to be selected is : com.hsbc.RunApiTests
-    `-Dcucumber.options="--tags @latest-exchange-rate,@specific-date-xchange-rate"`
+    `-Dcucumber.options="--tags @mk"`
  All possible scenarios automated, and there are some duplicate scenarios covered for both Latest and specific dates API.     
  JsonSchema generated from the latest API response and used as base to validate JsonSchema. 
  JsonSchema is available in the path  /src/test/resources/exchangesratesschema.json
