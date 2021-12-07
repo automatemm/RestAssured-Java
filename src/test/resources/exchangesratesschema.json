@@ -1,0 +1,226 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://api.ratesapi.io/api/",
+    "type": "object",
+    "default": {},
+    "additionalProperties": true,
+    "required": [
+        "base",
+        "rates",
+        "date"
+    ],
+    "properties": {
+        "base": {
+            "$id": "#/properties/base",
+            "type": "string",
+            "default": "EUR"
+        },
+        "rates": {
+            "$id": "#/properties/rates",
+            "type": "object",
+            "default": {},
+            "additionalProperties": true,
+            "required": [
+                "GBP",
+                "HKD",
+                "IDR",
+                "ILS",
+                "DKK",
+                "INR",
+                "CHF",
+                "MXN",
+                "CZK",
+                "SGD",
+                "THB",
+                "HRK",
+                "MYR",
+                "NOK",
+                "CNY",
+                "BGN",
+                "PHP",
+                "SEK",
+                "PLN",
+                "ZAR",
+                "CAD",
+                "ISK",
+                "BRL",
+                "RON",
+                "NZD",
+                "TRY",
+                "JPY",
+                "RUB",
+                "KRW",
+                "USD",
+                "HUF",
+                "AUD"
+            ],
+            "properties": {
+                "GBP": {
+                    "$id": "#/properties/rates/properties/GBP",
+                    "type": "number",
+                    "default": 0
+                },
+                "HKD": {
+                    "$id": "#/properties/rates/properties/HKD",
+                    "type": "number",
+                    "default": 0
+                },
+                "IDR": {
+                    "$id": "#/properties/rates/properties/IDR",
+                    "type": "number",
+                    "default": 0
+                },
+                "ILS": {
+                    "$id": "#/properties/rates/properties/ILS",
+                    "type": "number",
+                    "default": 0
+                },
+                "DKK": {
+                    "$id": "#/properties/rates/properties/DKK",
+                    "type": "number",
+                    "default": 0
+                },
+                "INR": {
+                    "$id": "#/properties/rates/properties/INR",
+                    "type": "number",
+                    "default": 0
+                },
+                "CHF": {
+                    "$id": "#/properties/rates/properties/CHF",
+                    "type": "number",
+                    "default": 0
+                },
+                "MXN": {
+                    "$id": "#/properties/rates/properties/MXN",
+                    "type": "number",
+                    "default": 0
+                },
+                "CZK": {
+                    "$id": "#/properties/rates/properties/CZK",
+                    "type": "number",
+                    "default": 0
+                },
+                "SGD": {
+                    "$id": "#/properties/rates/properties/SGD",
+                    "type": "number",
+                    "default": 0
+                },
+                "THB": {
+                    "$id": "#/properties/rates/properties/THB",
+                    "type": "number",
+                    "default": 0
+                },
+                "HRK": {
+                    "$id": "#/properties/rates/properties/HRK",
+                    "type": "number",
+                    "default": 0
+                },
+                "MYR": {
+                    "$id": "#/properties/rates/properties/MYR",
+                    "type": "number",
+                    "default": 0
+                },
+                "NOK": {
+                    "$id": "#/properties/rates/properties/NOK",
+                    "type": "number",
+                    "default": 0
+                },
+                "CNY": {
+                    "$id": "#/properties/rates/properties/CNY",
+                    "type": "number",
+                    "default": 0
+                },
+                "BGN": {
+                    "$id": "#/properties/rates/properties/BGN",
+                    "type": "number",
+                    "default": 0
+                },
+                "PHP": {
+                    "$id": "#/properties/rates/properties/PHP",
+                    "type": "number",
+                    "default": 0
+                },
+                "SEK": {
+                    "$id": "#/properties/rates/properties/SEK",
+                    "type": "number",
+                    "default": 0
+                },
+                "PLN": {
+                    "$id": "#/properties/rates/properties/PLN",
+                    "type": "number",
+                    "default": 0
+                },
+                "ZAR": {
+                    "$id": "#/properties/rates/properties/ZAR",
+                    "type": "number",
+                    "default": 0
+                },
+                "CAD": {
+                    "$id": "#/properties/rates/properties/CAD",
+                    "type": "number",
+                    "default": 0
+                },
+                "ISK": {
+                    "$id": "#/properties/rates/properties/ISK",
+                    "type": "number",
+                    "default": 0
+                },
+                "BRL": {
+                    "$id": "#/properties/rates/properties/BRL",
+                    "type": "number",
+                    "default": 0
+                },
+                "RON": {
+                    "$id": "#/properties/rates/properties/RON",
+                    "type": "number",
+                    "default": 0
+                },
+                "NZD": {
+                    "$id": "#/properties/rates/properties/NZD",
+                    "type": "number",
+                    "default": 0
+                },
+                "TRY": {
+                    "$id": "#/properties/rates/properties/TRY",
+                    "type": "number",
+                    "default": 0
+                },
+                "JPY": {
+                    "$id": "#/properties/rates/properties/JPY",
+                    "type": "number",
+                    "default": 0
+                },
+                "RUB": {
+                    "$id": "#/properties/rates/properties/RUB",
+                    "type": "number",
+                    "default": 0
+                },
+                "KRW": {
+                    "$id": "#/properties/rates/properties/KRW",
+                    "type": "number",
+                    "default": 0
+                },
+                "USD": {
+                    "$id": "#/properties/rates/properties/USD",
+                    "type": "number",
+                    "default": 0
+                },
+                "HUF": {
+                    "$id": "#/properties/rates/properties/HUF",
+                    "type": "number",
+                    "default": 0
+                },
+                "AUD": {
+                    "$id": "#/properties/rates/properties/AUD",
+                    "type": "number",
+                    "default": 0
+                }
+            }
+        },
+        "date": {
+            "$id": "#/properties/date",
+            "type": "string",
+            "default": ""
+        }
+    }
+}
